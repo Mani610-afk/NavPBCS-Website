@@ -126,20 +126,19 @@ const Contact: React.FC = () => {
               <div className="flex items-start space-x-4">
                 <MapPin className="h-6 w-6 text-accent-500 flex-shrink-0 mt-1" />
                 <div>
-                  <h4 className="font-medium mb-1">Our Location</h4>
+                  <h4 className="font-medium mb-1">Our Location</h4>                
                   <h4 className="font-medium mb-1 relative inline-block after:block after:w-full after:h-[3px] after:bg-orange-500 after:mt-1">
-  America
-</h4>
-                  <p className="text-gray-300">#205 Old County Rd, 324,Belmont, CA, 94002, USA.</p>
-                  <h4 className="font-medium mb-1 relative inline-block after:block after:w-full after:h-[3px] after:bg-orange-500 after:mt-1">
-  APAC
+  India
 </h4>
                   <p className="text-gray-300">#B1/H3, MOHAN CO-OPERATIVE,Mathura Rd, Industrial Area, BLOCK,New Delhi 110044.</p>
                   <h4 className="font-medium mb-1 relative inline-block after:block after:w-full after:h-[3px] after:bg-orange-500 after:mt-1">
   Development Center
 </h4>
-
                   <p className="text-gray-300">#104,SSR Corporate Park,Faridabad 121013.</p>
+                  <h4 className="font-medium mb-1 relative inline-block after:block after:w-full after:h-[3px] after:bg-orange-500 after:mt-1">
+  USA
+</h4>
+                  <p className="text-gray-300">#205 Old County Rd, 324,Belmont, CA, 94002, USA.</p>
                 </div>
               </div>
               

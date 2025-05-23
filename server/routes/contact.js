@@ -15,7 +15,7 @@ router.post("/contact", async (req, res) => {
   try {
     const data = await resend.emails.send({
       from: "Contact Form <onboarding@resend.dev>",
-      to: "manish7661404@gmail.com",
+      to: "cgcrupesh@gmail.com",
       subject: subject || "New message from contact form",
       replyTo: email,
       html: `

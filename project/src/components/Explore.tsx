@@ -24,12 +24,15 @@ const explore = () => {
       <div className="container mx-auto px-4 md:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left - Phone Mockup */}
-          <div className="flex justify-center">
-            <div className="w-[260px] h-[500px] bg-gray-100 rounded-3xl shadow-inner relative p-4">
-              <p className="text-center text-gray-400 mt-48">Phone UI Placeholder</p>
-            </div>
-          </div>
-
+   <div className="flex justify-center">
+  <div className="w-[300px] h-[500px] bg-gray-100 rounded-3xl shadow-inner relative p-4 overflow-hidden">
+    <img 
+      src="/Explore.png" 
+      alt="Phone Screenshot"
+      className="max-w-5xl w-full rounded-3xl shadow-xl"
+    />
+  </div>
+</div>
           {/* Right - Text + Categories + Features */}
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-primary-900 mb-4">

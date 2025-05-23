@@ -14,13 +14,11 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 app.use(cors());
 
 // With this:
-app.use(
-  cors({
-    origin: "http://localhost:5173", // frontend origin
-    methods: ["POST"],
-    allowedHeaders: ["Content-Type"],
-  })
-);
+app.use(cors({
+  origin: '*', // Allow requests from this origin
+  methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allow these HTTP methods
+  credentials: true // Allow credentials
+}));
 
 app.use(express.json());
 
@@ -35,8 +33,8 @@ app.post("/api/contact", async (req, res) => {
 
   try {
     const emailResponse = await resend.emails.send({
-      from: "Contact Form NAVPBCS",
-      to: "manish.sharma@prudencesoftech.com", // Change this to your receiving email
+      from: "manish@resend.dev", // ✅ temporary test sender
+      to: "manish7661404@gmail.com", // Change this to your receiving email
       subject: subject || "New Contact Form Message",
       replyTo: email,
       html: `

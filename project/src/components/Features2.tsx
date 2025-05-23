@@ -42,7 +42,7 @@ const Features2 = () => {
               <img
                 src="public\NavPBCS Logo.png" // Replace with your actual logo path
                 alt="NavFarm Logo"
-                className="w-24"
+                className="max-w-3xl w-full rounded-3xl"
               />
             </div>
           </div>

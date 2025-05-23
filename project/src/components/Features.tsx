@@ -64,9 +64,9 @@ const Features = () => {
           {/* RIGHT: Mobile UI Image */}
           <div className="flex justify-center">
             <img
-              src="/path-to-your-image.png" // Replace with actual image path or URL
+              src="/NavPBCS Dashboard.png" // Replace with actual image path or URL
               alt="NavPBCS mobile dashboard"
-              className="max-w-xs w-full rounded-3xl shadow-xl"
+              className="max-w-3xl w-full rounded-3xl shadow-xl"
             />
           </div>
         </div>
